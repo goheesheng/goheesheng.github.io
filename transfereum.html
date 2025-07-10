@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Transfereum | Projects</title>
+  <meta content="Transfereum, ERC20, Batch Transfer, Smart Contract, Hardhat, Solidity, Holesky, Demo" name="keywords">
+  <link href="assets/img/icon.png" rel="icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    .carousel-item img {
+      height: 400px;
+      object-fit: cover;
+      width: 100%;
+    }
+  </style>
+</head>
+<header id="header" class="header-tops header-top">
+  <div class="container">
+    <h1><a href="https://goheesheng.github.io/">Goh Ee Sheng</a></h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#services">Certificates & Awards</a></li>
+        <li><a href="index.html#projects">Portfolio</a></li>
+        <li><a class="nav-link" href="https://drive.google.com/file/d/1QEcuS1zkoSpjgj7A3yHTwYFBPFpkmrwC/view?usp=sharing" target="_blank">Curriculum Vitae</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<body>
+  <div class='light x2'></div>
+  <div class='light x3'></div>
+  <div class='light x4'></div>
+  <div class='light x5'></div>
+  <div class='light x6'></div>
+  <div class='light x7'></div>
+  <div class='light x8'></div>
+  <div class='light x9'></div>
+  <div class='light x10'></div>
+  <div class='light x11'></div>
+<section class="section-show">
+  <div class="container">
+    <div class="section-title">
+      <h2><a href="index.html#projects">Back</a></h2>
+      <p>Transfereum: Batch ERC20 Token Transfers</p>
+    </div>
+    <div class="container">
+      <div class="container-fluid">
+        <div id="transfereumIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators mb-4">
+            <li data-target="#transfereumIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#transfereumIndicators" data-slide-to="1"></li>
+            <li data-target="#transfereumIndicators" data-slide-to="2"></li>
+            <li data-target="#transfereumIndicators" data-slide-to="3"></li>
+            <li data-target="#transfereumIndicators" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="assets/img/portfolio/transfereum1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/img/portfolio/transfereum2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/img/portfolio/transfereum3.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/img/portfolio/transfereum4.jpg" alt="Fourth slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/img/portfolio/transfereum5.jpg" alt="Fifth slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#transfereumIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#transfereumIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row container project-showcase" style="background:none;">
+      <div class="col-lg-7">
+        <h4>Overview</h4>
+        <p>Transfereum is a platform designed to simplify and automate the process of transferring multiple ERC20 tokens to one or more wallet addresses. The core smart contract, BatchTransfer, enables users to perform batch token transfers efficiently, with built-in monetization features for the service provider.</p>
+        <h6>Technical Concepts</h6>
+        <ul>
+          <li><b>BatchTransfer (Upgradeable):</b> Batch transfer multiple ERC20 tokens to multiple recipients in a single transaction. Owner can set a fee percentage, withdraw revenue, and transfer ownership. UUPS proxy upgradeable using OpenZeppelin modules.</li>
+          <li><b>MockERC20:</b> Used for local testing and development.</li>
+          <li><b>Lock:</b> Example contract for time-locked Ether deposits (not used in main flow).</li>
+        </ul>
+        <h6>Business Concepts</h6>
+        <ul>
+          <li><b>Monetization:</b> Transaction fees on each batch transfer, configurable by owner. Future: premium features, API access, white-label, DAO revenue sharing.</li>
+        </ul>
+        <h6>Use Cases</h6>
+        <ul>
+          <li>Token migration (moving tokens to a new wallet)</li>
+          <li>Airdrops and mass payouts</li>
+          <li>Treasury management for DAOs and projects</li>
+          <li>Simplifying user experience for multi-token transfers</li>
+        </ul>
+        <div class="mt-4">
+          <h4>Demo Video:</h4>
+          <a class="btn btn-primary mb-2" href="https://youtu.be/7LZElFoAwbI" target="_blank">Watch Demo</a>
+        </div>
+        <h6>To Be Further Developed</h6>
+        <ul>
+          <li>Frontend UI for easy batch transfer and fee visualization</li>
+          <li>User authentication and wallet integration (MetaMask)</li>
+          <li>Advanced analytics and reporting</li>
+          <li>Support for ERC721, ERC1155</li>
+          <li>Security audits and bug bounties</li>
+          <li>Documentation and onboarding guides</li>
+          <li>DAO integration for decentralized ownership</li>
+        </ul>
+      </div>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-4">
+        <h5>Tech Stack</h5>
+        <ul>
+          <li>Solidity (OpenZeppelin upgradeable contracts)</li>
+          <li>Hardhat (development, testing, deployment)</li>
+          <li>Next.js (frontend, if applicable)</li>
+          <li>Chai/Mocha (testing)</li>
+        </ul>
+        <h5>Project Structure</h5>
+        <pre style="font-size:12px; background:#f8f9fa; padding:10px; border-radius:6px;">
+contracts/   # Main and example smart contracts
+test/        # Test scripts and mock contracts
+artifacts/   # Compiled contract artifacts
+src/         # Frontend (if applicable)
+        </pre>
+        <h5>Getting Started</h5>
+        <ul>
+          <li>Install dependencies: <code>npm install</code></li>
+          <li>Compile contracts: <code>npx hardhat compile</code></li>
+          <li>Run tests: <code>npx hardhat test</code></li>
+          <li>Deploy contracts: <code>npx hardhat run scripts/deploy-tokens-fixed.js --network localhost</code></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="credits">
+  Goh Ee Sheng <span style="color:#18d26e;">&#169;</span> 2023</a>
+</div>
+<!-- Vendor JS Files -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+<script src="assets/vendor/counterup/counterup.min.js"></script>
+<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/venobox/venobox.min.js"></script>
+<script src="assets/vendor/typed.js/typed.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/purecounter/purecounter.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html> 

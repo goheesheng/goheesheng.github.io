@@ -1,0 +1,22 @@
+{
+  "filePath": ".spec-workflow/specs/new-portfolio-projects/requirements.md",
+  "currentVersion": 2,
+  "snapshots": [
+    {
+      "version": 1,
+      "filename": "snapshot-001.json",
+      "timestamp": "2026-01-15T14:00:16.642Z",
+      "trigger": "initial",
+      "approvalId": "approval_1768485616639_eyfc6t5p1",
+      "approvalTitle": "Requirements: x402data & Moonstack Portfolio Projects"
+    },
+    {
+      "version": 2,
+      "filename": "snapshot-002.json",
+      "timestamp": "2026-01-15T14:01:11.444Z",
+      "trigger": "approved",
+      "approvalId": "approval_1768485616639_eyfc6t5p1",
+      "approvalTitle": "Requirements: x402data & Moonstack Portfolio Projects"
+    }
+  ]
+}
